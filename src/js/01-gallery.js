@@ -35,10 +35,10 @@ galleryList.addEventListener('click', event => {
 
   const source = target.dataset.source;
   console.log(source);
+});
 
-  const lightbox = new SimpleLightbox('.gallery__link', {
-    captions: true,
-    captionsDelay: 250,
-    captionsData: 'alt',
-  });
+const lightbox = new SimpleLightbox('.gallery__link', {
+  captions: true,
+  captionsDelay: 250,
+  captionsData: 'alt',
 });
